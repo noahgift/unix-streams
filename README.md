@@ -30,3 +30,14 @@ read -p 'File: ' FILENAME
 * put it into a script
 
  less < fruit.txt
+
+## Standard Error
+
+* Create Error
+ls -l /var/FAKEDIR
+
+* Write error to a file
+ls -l /var/FAKEDIR 2>error.txt
+
+* Throw Error away
+ls -l /var/FAKEDIR 2>/dev/null
