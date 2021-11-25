@@ -20,3 +20,13 @@ ps -ef | grep python
 
 echo 1993
 echo 1993 | rev
+
+## Standard Input
+
+* Ask for user input
+
+read -p 'File: ' FILENAME
+
+* put it into a script
+
+ less < fruit.txt
